@@ -14,16 +14,24 @@ Gem::Specification.new do |s|
   s.email = %q{spencer@theablefew.com}
   s.extra_rdoc_files = [
     "LICENSE.txt",
-    "README.rdoc"
+    "README.markdown"
   ]
   s.files = [
     ".document",
     "Gemfile",
+    "Gemfile.lock",
     "LICENSE.txt",
-    "README.rdoc",
+    "README.markdown",
     "Rakefile",
     "VERSION",
     "lib/schemata.rb",
+    "lib/schemata/orm/active_record.rb",
+    "lib/schemata/schema.rb",
+    "lib/schemata/schema/addressable.rb",
+    "lib/schemata/schema/contactable.rb",
+    "lib/schemata/schema/menuable.rb",
+    "lib/schemata/schema/nameable.rb",
+    "schemata.gemspec",
     "test/helper.rb",
     "test/test_schemata.rb"
   ]
