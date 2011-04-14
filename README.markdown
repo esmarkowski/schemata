@@ -21,7 +21,6 @@ becomes
 
 * Addressable
 * Contactable
-* Menuable
 * Nameable
 
 ##Creating your own collection
