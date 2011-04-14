@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{schemata}
-  s.version = "0.0.0"
+  s.version = "0.1.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Spencer Markowski"]
-  s.date = %q{2011-04-13}
+  s.date = %q{2011-04-14}
   s.description = %q{Schema definitions for commonly used logical objects.}
   s.email = %q{spencer@theablefew.com}
   s.extra_rdoc_files = [
@@ -29,7 +29,6 @@ Gem::Specification.new do |s|
     "lib/schemata/schema.rb",
     "lib/schemata/schema/addressable.rb",
     "lib/schemata/schema/contactable.rb",
-    "lib/schemata/schema/menuable.rb",
     "lib/schemata/schema/nameable.rb",
     "schemata.gemspec",
     "test/helper.rb",
