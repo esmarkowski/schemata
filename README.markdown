@@ -25,7 +25,26 @@ becomes
 * Nameable
 
 ##Creating your own collection
-coming soon..
+
+Creating your own collections is easy:
+
+    #schema/timeable.rb
+    module Schemata
+      module Schema
+        def timeable
+          apply_schema :start_time, :datetime
+          apply_schema :end_time , :datetime
+        end
+      end
+    end
+
+Then require the file in environment.rb or your rails engine. 
+
+    require 'schema/timeable'
+
+You can define as many methods within a file as you want and they'll be available. A quick an easy way to port your definitions would be to create a gem like schemata-timeables. 
+
+
 
 ## Contributing to schemata
  
