@@ -9,7 +9,6 @@ module Schemata
     require 'schemata/schema'
     require 'schemata/schema/addressable'
     require 'schemata/schema/contactable'
-    require 'schemata/schema/menuable'
     require 'schemata/schema/nameable'
   end
   
